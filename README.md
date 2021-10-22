@@ -25,4 +25,4 @@ Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tend
 
 ====
 3.-Programación estructurada en bloques
-        Intro de la llaves { }
+        Intro de la llaves { } + WHILE, DO, FOR

@@ -26,50 +26,41 @@ do
 {
     x = ns[i];//<-optimización.
     s = s + x;
-    if(x < 5) //<-numero mágico!!! Refactorizar.
-        ProcesarSuspendidos();
+    if (x < 5) //<-numero mágico!!! Refactorizar.
+        if (so[i] == 'H')
+        {
+            sh = sh + x;
+            ah = ah + 1;
+        }
+        else
+        {
+            sm = sm + x;
+            am = am + 1;
+        }
     else
-        ProcesarAprovados();
+        if (so[i] == 'H')
+        {
+            sh = sh + x;
+            ph = ph + 1;
+        }
+        else
+        {
+            sm = sm + x;
+            pm = pm + 1;
+        };
     i++;
-} while(i < n);
+} while (i < n);
 //  FIN CICLO
 Console.WriteLine("fin ciclo");
 
 //  MEDIA
 m = s / ns.Length;
-Console.WriteLine($"participantes {n} H={ah + ph} M={am + pm}");
+Console.WriteLine($"Participantes {n} H={ah + ph} M={am + pm}");
 // Refactorizar expresion
 Console.WriteLine($"La media es {m:0.00} H={sh / (ah + ph):00.00} M={sm / (am + pm):00.00}");
 // SUSPENSOS 
 Console.WriteLine($"Suspenso  H={ph} M={pm}");
-// APROVADOS 
+// APROBADOS 
 Console.WriteLine($"Aprobados H={ah} M={am}");
 Console.WriteLine("Fin");
 
-void ProcesarAprovados()
-{
-    if (so[i] == 'M')
-    {
-        sh = sh + x;
-        ah = ah + 1;
-    }
-    else
-    {
-        sm = sm + x;
-        am = am + 1;
-    }
-}
-
-void ProcesarSuspendidos()
-{
-    if (so[i] == 'M')
-    {
-        sh = sh + x;
-        ph = ph + 1;
-    }
-    else
-    {
-        sm = sm + x;
-        pm = pm + 1;
-    };
-}

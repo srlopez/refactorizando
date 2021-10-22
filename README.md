@@ -23,4 +23,6 @@ Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tend
 2.-Programación procedimental:  
         Procedures globales  
 
-    
+====
+3.-Programación estructurada en bloques
+        Intro de la llaves { }

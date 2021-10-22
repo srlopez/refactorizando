@@ -1,6 +1,5 @@
 ﻿/*
 PROGRAMACION ESTRUCTURADA PROCEDIMENTAL
-
 */
 
 using System;
@@ -22,36 +21,17 @@ var sm = 0M;
 //  EMPEZAMOS
 Console.WriteLine("Empiezo");
 var n = ns.Length;
-<<<<<<< HEAD
 // CICLO
-sumar:
-    x = ns[i]; //<- optimización
+do
+{
+    x = ns[i];//<-optimización.
     s = s + x;
-    if(x<5) goto suspendido; //<-numero mágico!!! Refactorizar
-    if(so[i]=='M') goto AM;
-    sh = sh + x;
-    ah = ah + 1;
-    goto sigue;
-AM:
-    sm = sm + x;
-    am = am + 1;
-=======
-
-//  CICLO
-sumar:
-    x = ns[i]; //<- optimización
-    s = s + x;
-    if (x < 5) goto suspendido; //<- numero mágico!!! Refactorizar
-    ProcesarAprovados();
->>>>>>> paso2
-    goto sigue;
-suspendido:
-    ProcesarSuspendidos();
-sigue:
-    i = i + 1;
-    if (i < n) goto sumar;
-
-
+    if(x < 5) //<-numero mágico!!! Refactorizar.
+        ProcesarSuspendidos();
+    else
+        ProcesarAprovados();
+    i++;
+} while(i < n);
 //  FIN CICLO
 Console.WriteLine("fin ciclo");
 
@@ -60,51 +40,36 @@ m = s / ns.Length;
 Console.WriteLine($"participantes {n} H={ah + ph} M={am + pm}");
 // Refactorizar expresion
 Console.WriteLine($"La media es {m:0.00} H={sh / (ah + ph):00.00} M={sm / (am + pm):00.00}");
-
 // SUSPENSOS 
 Console.WriteLine($"Suspenso  H={ph} M={pm}");
 // APROVADOS 
 Console.WriteLine($"Aprobados H={ah} M={am}");
-<<<<<<< HEAD
-Console.WriteLine("Fin");
-=======
 Console.WriteLine("Fin");
 
 void ProcesarAprovados()
 {
-    if (so[i] == 'M') goto AM;
-    ProcesarHA();
-    return;
-AM:
-    ProcesarMA();
-}
-void ProcesarSuspendidos()
-{
-    if (so[i] == 'M') goto PM;
-    ProcesarPH();
-    return;
-PM:
-    ProcesarPM();
+    if (so[i] == 'M')
+    {
+        sh = sh + x;
+        ah = ah + 1;
+    }
+    else
+    {
+        sm = sm + x;
+        am = am + 1;
+    }
 }
 
-void ProcesarHA()
+void ProcesarSuspendidos()
 {
-    sh = sh + x;
-    ah = ah + 1;
+    if (so[i] == 'M')
+    {
+        sh = sh + x;
+        ph = ph + 1;
+    }
+    else
+    {
+        sm = sm + x;
+        pm = pm + 1;
+    };
 }
-void ProcesarMA()
-{
-    sm = sm + x;
-    am = am + 1;
-}
-void ProcesarPH()
-{
-    sh = sh + x;
-    ph = ph + 1;
-}
-void ProcesarPM()
-{
-    sm = sm + x;
-    pm = pm + 1;
-}
->>>>>>> paso2

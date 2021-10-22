@@ -10,5 +10,17 @@ Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tend
 
 
 
-1. Paso0:  
-    Presentar el lenguaje 
+1. Presentar el lenguaje:  
+        Declaraciones  
+        Diseño de los datos    
+
+1. Programación imperativa:  
+        IF, GOTO  
+        Codificación del algortimo  
+        Refactorización de nombrado  
+        Refactorización de numeros mágicos  
+
+2. Programación procedimental:  
+        Procedures globales  
+
+    

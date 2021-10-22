@@ -1,16 +1,6 @@
 ﻿/*
-PROGRAMACION IMPERATIVA
-con las siguientes instrucciones exclusivamente IF, GOTO y LABEL
+PROGRAMACION ESTRUCTURADA PROCEDIMENTAL
 
-Calcula la media del array, los participanntes, 
-
-Restricciones:
-    - todo variables globales
-    - ninguna función
-    - no usar llaves {} para bloques de instruciones
-    - if sin else.
-Permitido:
-    - metodos de coleciones y arrays
 */
 
 using System;
@@ -32,11 +22,11 @@ var sm = 0M;
 //  EMPEZAMOS
 Console.WriteLine("Empiezo");
 var n = ns.Length;
-//  CICLO
+// CICLO
 sumar:
     x = ns[i]; //<- optimización
     s = s + x;
-    if(x<5) goto suspendido; //<- numero mágico!!! Refactorizar
+    if(x<5) goto suspendido; //<-numero mágico!!! Refactorizar
     if(so[i]=='M') goto AM;
     sh = sh + x;
     ah = ah + 1;

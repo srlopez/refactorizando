@@ -59,6 +59,6 @@ Console.WriteLine($"La media es {m:0.00} H={sh/(ah+ph):00.00} M={sm/(am+pm):00.0
 
 // SUSPENSOS 
 Console.WriteLine($"Suspenso  H={ph} M={pm}");
-// APROVADOS 
+// APROBADOS 
 Console.WriteLine($"Aprobados H={ah} M={am}");
 Console.WriteLine("Fin");

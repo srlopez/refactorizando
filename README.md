@@ -10,5 +10,9 @@ Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tend
 
 
 
-1. Paso0:  
-    Presentar el lenguaje 
+Paso0:    
+    Presentar el lenguaje   
+
+Paso1:  
+    Programación imperativa
+    IF, GOTO, LABEL

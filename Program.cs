@@ -1,6 +1,6 @@
 ﻿/*
-PROGRAMACION ESTRUCTURADA PROCEDIMENTAL
-
+PROGRAMACION IMPERATIVA
+IF, GOTO, LABEL
 */
 
 using System;
@@ -24,9 +24,9 @@ Console.WriteLine("Empiezo");
 var n = ns.Length;
 // CICLO
 sumar:
-    x = ns[i]; //<- optimización
+    x = ns[i];                 //<- REF optimización
     s = s + x;
-    if(x<5) goto suspendido; //<-numero mágico!!! Refactorizar
+    if(x<5) goto suspendido;   //<- REF numero mágico!!! Refactorizar
     if(so[i]=='M') goto AM;
     sh = sh + x;
     ah = ah + 1;
@@ -45,18 +45,17 @@ PM:
     pm = pm + 1;
 sigue:
     i = i + 1;
+    Console.WriteLine("en ciclo");
     if (i < n) goto sumar;
-
-
 //  FIN CICLO
 Console.WriteLine("fin ciclo");
 
+//  RESULTADOS
 //  MEDIA
 m = s / ns.Length;
 Console.WriteLine($"participantes {n} H={ah+ph} M={am+pm}");
-// Refactorizar expresion
+// <-- REF Refactorizar expresion
 Console.WriteLine($"La media es {m:0.00} H={sh/(ah+ph):00.00} M={sm/(am+pm):00.00}");
-
 // SUSPENSOS 
 Console.WriteLine($"Suspenso  H={ph} M={pm}");
 // APROBADOS 

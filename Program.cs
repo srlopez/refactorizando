@@ -1,6 +1,9 @@
 ﻿/*
+PROGRAMACION ESTRUCTURADA 
+EN BLOQUES DE INSTRUCCIONES
 
-
+EJERCICIO RESULTADO DE LA REFACTORIZACION IMPERATIVA
+BLOQUES MÁS LEGIBLES EN CICLOS E IF
 */
 
 using System;
@@ -21,13 +24,13 @@ var sm = 0M;
 
 //  EMPEZAMOS
 Console.WriteLine("Empiezo");
-var n = ns.Length;
+var n = ns.Length;       //<-  REF optimización.
 // CICLO
 do
 {
-    x = ns[i];//<-optimización.
+    x = ns[i];           //<-  REF optimización.
     s = s + x;
-    if (x < 5) //<-numero mágico!!! Refactorizar.
+    if (x < 5)           //<-  REF numero mágico!!! Refactorizar.
         if (so[i] == 'H')
         {
             sh = sh + x;
@@ -50,12 +53,13 @@ do
             pm = pm + 1;
         };
     i++;
+    Console.WriteLine("en ciclo");
 } while (i < n);
 //  FIN CICLO
 Console.WriteLine("fin ciclo");
-
+// RESULTADO
 //  MEDIA
-m = s / ns.Length;
+m = s / n;
 Console.WriteLine($"Participantes {n} H={ah + ph} M={am + pm}");
 // Refactorizar expresion
 Console.WriteLine($"La media es {m:0.00} H={sh / (ah + ph):00.00} M={sm / (am + pm):00.00}");

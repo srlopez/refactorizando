@@ -1,16 +1,15 @@
 ﻿/*
 PROGRAMACION ESTRUCTURADA EN PPROCEDIMIENTOS
-con las siguientes instrucciones exclusivamente IF, GOTO y LABEL
-
-Calcula la media del array, los participanntes, 
-
 Restricciones:
+    - exclusivamente IF, GOTO y LABEL
     - todo variables globales
     - ninguna función
     - no usar llaves {} para bloques de instruciones
-    - if sin else.
+    - IF no ELSE
+    - usar llaves para procedimientos sin return ni parametros
 Permitido:
     - metodos de coleciones y arrays
+    - 
 */
 
 using System;

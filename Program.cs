@@ -52,7 +52,7 @@ Console.WriteLine("fin ciclo");
 
 //  RESULTADOS
 //  MEDIA
-m = s / ns.Length;
+m = s / n;
 Console.WriteLine($"participantes {n} H={ah+ph} M={am+pm}");
 // <-- REF Refactorizar expresion
 Console.WriteLine($"La media es {m:0.00} H={sh/(ah+ph):00.00} M={sm/(am+pm):00.00}");

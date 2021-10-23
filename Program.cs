@@ -1,5 +1,8 @@
 ﻿/*
-PROGRAMACION ESTRUCTURADA PROCEDIMENTAL
+PROGRAMACION ESTRUCTURADA 
+EN BLOQUES DE INSTRUCCIONES
+
+EJERCICIO RESULTADO DE LA REFACTORIZACION DE LOS DOS ANTERIOS
 */
 
 using System;
@@ -49,12 +52,13 @@ do
             pm = pm + 1;
         };
     i++;
+    Console.WriteLine("en ciclo");
 } while (i < n);
 //  FIN CICLO
 Console.WriteLine("fin ciclo");
-
+// RESULTADO
 //  MEDIA
-m = s / ns.Length;
+m = s / n;
 Console.WriteLine($"Participantes {n} H={ah + ph} M={am + pm}");
 // Refactorizar expresion
 Console.WriteLine($"La media es {m:0.00} H={sh / (ah + ph):00.00} M={sm / (am + pm):00.00}");

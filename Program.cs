@@ -12,3 +12,4 @@ var n = ns.Length;
 
 // IF, GOTO, LABEL
 // Instrucciones de primer nivel
+// Interpolacion

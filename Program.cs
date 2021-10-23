@@ -1,5 +1,5 @@
 ﻿/*
-PROGRAMACION ESTRUCTURADA EN PPROCEDIMIENTOS
+PROGRAMACION ESTRUCTURADA EN PROCEDIMIENTOS
 Restricciones:
     - exclusivamente IF, GOTO y LABEL
     - todo variables globales
@@ -9,7 +9,10 @@ Restricciones:
     - usar llaves para procedimientos sin return ni parametros
 Permitido:
     - metodos de coleciones y arrays
-    - 
+
+MEJORA LA SEMANTICA DE LA PROGRAMACION
+ES MÁS FACIL DE LEER
+
 */
 
 using System;

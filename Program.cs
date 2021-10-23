@@ -1,5 +1,6 @@
 ﻿/*
-PROGRAMACION ESTRUCTURADA PROCEDIMENTAL
+
+
 */
 
 using System;

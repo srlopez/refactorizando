@@ -9,6 +9,7 @@ Luis, Marta, Marcos, Aroa, Nerea, Kike, Juan
 H,    M,     H,      M,    M,     H,    H
 7.5,  4,     6,      5,    4,     6.5,  7.5 
 ```
+
 Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tendrá que añadir.
 
 

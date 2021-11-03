@@ -9,9 +9,8 @@ H,    M,     H,      M,    M,     H,    H
 Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tendrá que añadir. (Creo que lo ha hecho adrede)
 
 
-
 0.-Presentar el lenguaje:  
-        Declaraciones  
+        Declaraciones con inferencia de tipos
         Diseño de los datos    
 
 1.-Programación imperativa:  
@@ -20,10 +19,13 @@ Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tend
         Refactorización de nombrado  
         Refactorización de numeros mágicos  
 
-2.-Programación procedimental:  
+1a.-Programación procedimental:  
         Procedures globales  
 
-====
-3.-Programación estructurada en bloques
+1b.-Programación estructurada en bloques
         EJERCICIO de REFACTORIZACION
         Intro de la llaves { } + WHILE, DO, FOR
+
+2.-Agrupacción de funcionalidad en funciones
+
+3.-Agrupación de intereses/responsabilidad

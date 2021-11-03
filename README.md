@@ -9,10 +9,14 @@ H,    M,     H,      M,    M,     H,    H
 Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tendrá que añadir. (Creo que lo ha hecho adrede)
 
 
+##### 0.-Presentar el lenguaje:
 
-Paso0:    
-    Presentar el lenguaje   
+- Declaraciones con inferencia de tipos
+- Diseño de los datos    
 
-Paso1:  
-    Programación imperativa
-    IF, GOTO, LABEL
+##### 1.-Programación imperativa:  
+- IF, GOTO  
+- Codificación del algortimo  
+- Refactorización de nombrado  
+- Refactorización de numeros mágicos  
+

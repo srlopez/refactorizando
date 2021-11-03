@@ -9,18 +9,16 @@ H,    M,     H,      M,    M,     H,    H
 Y además nos dice que no tiene la nota de algunos alumnos, y que luego las tendrá que añadir. (Creo que lo ha hecho adrede)
 
 
+##### 0.-Presentar el lenguaje:
 
-0.-Presentar el lenguaje:  
-        Declaraciones  
-        Diseño de los datos    
+- Declaraciones con inferencia de tipos
+- Diseño de los datos    
 
-1.-Programación imperativa:  
-        IF, GOTO  
-        Codificación del algortimo  
-        Refactorización de nombrado  
-        Refactorización de numeros mágicos  
+##### 1.-Programación imperativa:  
+- IF, GOTO  
+- Codificación del algortimo  
+- Refactorización de nombrado  
+- Refactorización de numeros mágicos  
 
-2.-Programación procedimental:  
-        Procedures globales  
-
-    
+##### 1a.-Programación procedimental:  
+- Procedures globales  
